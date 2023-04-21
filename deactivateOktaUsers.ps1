@@ -7,8 +7,8 @@ param (
     [string]${profile.email}
 )
 
-# Okta API endpoint 
-$oktaUrl = "https://dev-48162081.okta.com/api/v1/users/${profile.email}/lifecycle/deactivate"
+# Okta API endpoint URL - Repleace ENTER URL HERE with your okta url
+$oktaUrl = "https://ENTER URL HERE/api/v1/users/${profile.email}/lifecycle/deactivate"
 
 # Create headers for the API request
 $headers = @{

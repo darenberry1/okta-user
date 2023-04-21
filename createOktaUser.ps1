@@ -16,8 +16,8 @@ param (
     [string]$email
 )
 
-# Okta API endpoint URL
-$oktaUrl = "https://dev-48162081.okta.com/api/v1/users"
+# Okta API endpoint URL - Repleace ENTER URL HERE with your okta url
+$oktaUrl = "https://ENTER URL HERE/api/v1/users"
 
 # Create headers for the API request
 $headers = @{
